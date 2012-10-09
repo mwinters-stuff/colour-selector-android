@@ -1,4 +1,5 @@
 #summary Screen Shots of Colour Selector Library in Use
+#sidebar TableOfContents
 
 ||*Grid Selector*||*Preferences*||*RGB Selector*||*Hex Input*||
-||[https://colour-selector-android.googlecode.com/svn/wiki/selector.png]||[https://colour-selector-android.googlecode.com/svn/wiki/prefs.png]||[https://colour-selector-android.googlecode.com/svn/wiki/selector.png]||[https://colour-selector-android.googlecode.com/svn/wiki/selector.png]||
+||[https://colour-selector-android.googlecode.com/svn/wiki/selector.png]||[https://colour-selector-android.googlecode.com/svn/wiki/prefs.png]||[https://colour-selector-android.googlecode.com/svn/wiki/rgb.png]||[https://colour-selector-android.googlecode.com/svn/wiki/hex.png]||
