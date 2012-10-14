@@ -201,6 +201,10 @@ public class GridColorValueView extends FrameLayout
   private void setSatAndValueFromPos(int x, int y, boolean up)
   {
 
+    if(mCellSizeX == 0 || mCellSizeY == 0)
+    {
+      return;
+    }
     int cellx = x / mCellSizeX;
     int celly = y / mCellSizeY;
 
