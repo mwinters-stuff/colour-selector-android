@@ -209,7 +209,7 @@ public class GridColorValueView extends FrameLayout
     int celly = y / mCellSizeY;
 
     int cell = cellx + (celly * mNumX);
-    if (cell < BigColour.values().length)
+    if (cell >= 0 && cell < BigColour.values().length)
     {
       BigColour col = BigColour.values()[cell];
 
