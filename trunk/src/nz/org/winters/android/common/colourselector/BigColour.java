@@ -17,6 +17,17 @@ package nz.org.winters.android.common.colourselector;
 */
 
 public enum BigColour {
+  HoloBlueLight(0xff33b5e5),
+  HoloPurpleLight(0xffaa66cc),
+  HoloGreenLight(0xff99cc00),
+  HoloOrangeLight(0xffffbb33),
+  HoloRedLight(0xffff4444),
+  HoloBlueDark(0xff0099cc),
+  HoloPurpleDark(0xff9933cc),
+  HoloGreenDark(0xff669900),
+  HoloOrangeDark(0xffff8800),
+  HoloRedDark(0xffcc0000),
+  
 	IndianRed(0xFFCD5C5C),
 	LightCoral(0xFFF08080),
 	Salmon(0xFFFA8072),
