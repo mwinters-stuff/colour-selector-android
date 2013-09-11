@@ -14,14 +14,11 @@ package nz.org.winters.android.common.colourselector;
  * See the License for the specific language governing permissions and
  * limitations under the License.
 */
-import android.app.AlertDialog;
 import android.content.Context;
 import android.graphics.Color;
 import android.preference.DialogPreference;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
 public class ColourPreference extends DialogPreference implements OnColorChangedListener
@@ -63,11 +60,12 @@ public class ColourPreference extends DialogPreference implements OnColorChanged
   @Override
   public CharSequence getSummary()
   {
-    if (mSummaryView != null && getColour() != Color.BLACK)
+    int colour = getColour();
+    if (mSummaryView != null && colour != Color.BLACK)
     {
-      mSummaryView.setTextColor(getColour());
+      mSummaryView.setTextColor(colour);
     }
-    return getSummaryColour(getColour());
+    return getSummaryColour(colour);
   }
 
   @Override
@@ -100,7 +98,7 @@ public class ColourPreference extends DialogPreference implements OnColorChanged
 
   public int getColour()
   {
-    return getPersistedInt(Color.WHITE);
+    return getPersistedInt(Color.GREEN);
   }
 
   @Override
